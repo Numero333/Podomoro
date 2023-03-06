@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74D8311629B3C60F00F37F5D /* Testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D8311529B3C60F00F37F5D /* Testing.swift */; };
+		F70704E227CFE3E50082B58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F70704E127CFE3E50082B58A /* LaunchScreen.storyboard */; };
+		F730A0F627D11CCF00E3C2DE /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = F730A0F527D11CCF00E3C2DE /* Background.swift */; };
+		F76415BE27C6537500541FD7 /* MinuteurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76415BD27C6537500541FD7 /* MinuteurApp.swift */; };
+		F76415C027C6537500541FD7 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76415BF27C6537500541FD7 /* Home.swift */; };
+		F76415C227C6537600541FD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76415C127C6537600541FD7 /* Assets.xcassets */; };
+		F76415C527C6537600541FD7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F76415C427C6537600541FD7 /* Preview Assets.xcassets */; };
+		F76415CC27C6569300541FD7 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76415CB27C6569300541FD7 /* TimerView.swift */; };
+		F791560C27D63C3500EA7929 /* gong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F791560B27D63C3500EA7929 /* gong.mp3 */; };
+		F7EA9A5A27C66008003EAA45 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA9A5927C66008003EAA45 /* TimerManager.swift */; };
+		F7EA9A5C27C66286003EAA45 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7EA9A5B27C66286003EAA45 /* models.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74D8311529B3C60F00F37F5D /* Testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing.swift; sourceTree = "<group>"; };
+		F70704E027CFDAB30082B58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F70704E127CFE3E50082B58A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F730A0F527D11CCF00E3C2DE /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		F76415BA27C6537500541FD7 /* Minuteur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minuteur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F76415BD27C6537500541FD7 /* MinuteurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteurApp.swift; sourceTree = "<group>"; };
+		F76415BF27C6537500541FD7 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F76415C127C6537600541FD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F76415C427C6537600541FD7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F76415CB27C6569300541FD7 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		F791560B27D63C3500EA7929 /* gong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gong.mp3; sourceTree = "<group>"; };
+		F7EA9A5927C66008003EAA45 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		F7EA9A5B27C66286003EAA45 /* models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F76415B727C6537500541FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F730A0F227D11C4C00E3C2DE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F76415BF27C6537500541FD7 /* Home.swift */,
+				74D8311529B3C60F00F37F5D /* Testing.swift */,
+				F76415CB27C6569300541FD7 /* TimerView.swift */,
+				F70704E127CFE3E50082B58A /* LaunchScreen.storyboard */,
+				F730A0F527D11CCF00E3C2DE /* Background.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F730A0F327D11C6200E3C2DE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA9A5B27C66286003EAA45 /* models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F730A0F427D11C8F00E3C2DE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7EA9A5927C66008003EAA45 /* TimerManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F76415B127C6537500541FD7 = {
+			isa = PBXGroup;
+			children = (
+				F76415BC27C6537500541FD7 /* Minuteur */,
+				F76415BB27C6537500541FD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F76415BB27C6537500541FD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F76415BA27C6537500541FD7 /* Minuteur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F76415BC27C6537500541FD7 /* Minuteur */ = {
+			isa = PBXGroup;
+			children = (
+				F76415BD27C6537500541FD7 /* MinuteurApp.swift */,
+				F730A0F227D11C4C00E3C2DE /* View */,
+				F730A0F327D11C6200E3C2DE /* Model */,
+				F730A0F427D11C8F00E3C2DE /* ViewModel */,
+				F791560A27D63BFF00EA7929 /* Sons */,
+				F70704E027CFDAB30082B58A /* Info.plist */,
+				F76415C127C6537600541FD7 /* Assets.xcassets */,
+				F76415C327C6537600541FD7 /* Preview Content */,
+			);
+			path = Minuteur;
+			sourceTree = "<group>";
+		};
+		F76415C327C6537600541FD7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F76415C427C6537600541FD7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F791560A27D63BFF00EA7929 /* Sons */ = {
+			isa = PBXGroup;
+			children = (
+				F791560B27D63C3500EA7929 /* gong.mp3 */,
+			);
+			path = Sons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F76415B927C6537500541FD7 /* Minuteur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F76415C827C6537600541FD7 /* Build configuration list for PBXNativeTarget "Minuteur" */;
+			buildPhases = (
+				F76415B627C6537500541FD7 /* Sources */,
+				F76415B727C6537500541FD7 /* Frameworks */,
+				F76415B827C6537500541FD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minuteur;
+			productName = Minuteur;
+			productReference = F76415BA27C6537500541FD7 /* Minuteur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F76415B227C6537500541FD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F76415B927C6537500541FD7 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F76415B527C6537500541FD7 /* Build configuration list for PBXProject "Minuteur" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				fr,
+				Base,
+			);
+			mainGroup = F76415B127C6537500541FD7;
+			productRefGroup = F76415BB27C6537500541FD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F76415B927C6537500541FD7 /* Minuteur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F76415B827C6537500541FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F70704E227CFE3E50082B58A /* LaunchScreen.storyboard in Resources */,
+				F791560C27D63C3500EA7929 /* gong.mp3 in Resources */,
+				F76415C527C6537600541FD7 /* Preview Assets.xcassets in Resources */,
+				F76415C227C6537600541FD7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F76415B627C6537500541FD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F730A0F627D11CCF00E3C2DE /* Background.swift in Sources */,
+				74D8311629B3C60F00F37F5D /* Testing.swift in Sources */,
+				F7EA9A5C27C66286003EAA45 /* models.swift in Sources */,
+				F76415C027C6537500541FD7 /* Home.swift in Sources */,
+				F7EA9A5A27C66008003EAA45 /* TimerManager.swift in Sources */,
+				F76415CC27C6569300541FD7 /* TimerView.swift in Sources */,
+				F76415BE27C6537500541FD7 /* MinuteurApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F76415C627C6537600541FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F76415C727C6537600541FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F76415C927C6537600541FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minuteur/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N573HT98J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Minuteur/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Pomodoro";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FxMEITE.Minuteur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F76415CA27C6537600541FD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Minuteur/Preview Content\"";
+				DEVELOPMENT_TEAM = 2N573HT98J;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Minuteur/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Simple Pomodoro";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.FxMEITE.Minuteur;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F76415B527C6537500541FD7 /* Build configuration list for PBXProject "Minuteur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76415C627C6537600541FD7 /* Debug */,
+				F76415C727C6537600541FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F76415C827C6537600541FD7 /* Build configuration list for PBXNativeTarget "Minuteur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F76415C927C6537600541FD7 /* Debug */,
+				F76415CA27C6537600541FD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F76415B227C6537500541FD7 /* Project object */;
+}
